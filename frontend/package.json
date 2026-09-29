@@ -1,0 +1,21 @@
+{
+  "name": "memoryops-frontend",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "MemoryOps — AI incident response dashboard (React + Vite)",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview --port 4173"
+  },
+  "dependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-router-dom": "^7.18.4"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^5.0.0",
+    "vite": "^7.0.0"
+  }
+}

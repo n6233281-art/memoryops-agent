@@ -1,0 +1,37 @@
+# --- Secrets: never commit these ---
+.env
+*.env
+!.env.example
+backend/.env
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# --- Node / Vite ---
+node_modules/
+frontend/dist/
+frontend/.vite/
+npm-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# --- Runtime data ---
+# The incident ledger is demo state; keep the shipped placeholder, ignore real data.
+data/incidents.local.json
+data/*.tmp
+
+# Dev/preview server logs
+*.log
+
+# --- Editors / OS ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

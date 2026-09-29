@@ -1,0 +1,14 @@
+# MemoryOps backend — Python 3.11+
+fastapi>=0.115,<1.0
+uvicorn[standard]>=0.30
+pydantic>=2.7
+pydantic-settings>=2.3
+python-dotenv>=1.0
+httpx>=0.27
+groq>=1.0
+
+# Official Hindsight by Vectorize client (memory layer).
+hindsight-client>=0.10
+
+# Tests
+pytest>=8.0

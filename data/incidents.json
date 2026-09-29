@@ -1,0 +1,22 @@
+{
+  "_meta": {
+    "synthetic_demo_data": true,
+    "note": "MemoryOps DEMO LEDGER ONLY. This file stores incident metadata for the dashboard. The agent's real long-term memory lives in Hindsight by Vectorize (bank: memoryops-incidents).",
+    "synthetic_example": {
+      "synthetic": true,
+      "label": "SYNTHETIC DEMO DATA \u2014 not a real incident",
+      "incident_id": "INC-001",
+      "service": "Payment API",
+      "symptom": "HTTP 503 errors",
+      "severity": "SEV2",
+      "environment": "production",
+      "error_signature": "upstream connect error / connection pool timeout",
+      "description": "Synthetic demo: the Payment API started returning HTTP 503 for roughly 4% of checkout requests within two minutes of the evening traffic peak. No deployment had shipped in the previous 12 hours.",
+      "root_cause": "Database connection pool exhaustion",
+      "resolution": "Increased database connection pool from 50 to 100",
+      "outcome": "Payment API recovered and error rate returned to normal",
+      "outcome_status": "resolved"
+    }
+  },
+  "incidents": []
+}
